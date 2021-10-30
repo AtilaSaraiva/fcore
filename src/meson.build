@@ -1,0 +1,22 @@
+sources = files('collections.f90',
+'collections_data.f90',
+'collections_dictionary.f90',
+'collections_hash.f90',
+'collections_linked_list.f90',
+'collections_list.f90',
+'fcore_constants.f90',
+'file_io.f90',
+'file_io_binary.f90',
+'file_io_endian.f90',
+'file_io_fm.f90',
+'file_io_path.f90',
+'file_io_reader.f90',
+'file_io_text.f90',
+'regular_expressions.cpp',
+'regular_expressions.f90',
+'strings.f90',
+'strings_ops.f90',
+'strings_string_builder.f90')
+#'system_file_io.cpp', only for windows
+#'ui_dialogs.cpp',
+#'ui_dialogs.f90')
